@@ -3,8 +3,8 @@ import React from 'react';
 
 
 
-import logo from "../images/logo.jpg"
-import icon from "../images/menu.png"
+import logo from "../images/logo.png"
+import icon from "../images/menuIcon.png"
 
 export const Menubar = () => {
     return (
