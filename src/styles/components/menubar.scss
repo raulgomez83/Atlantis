@@ -1,0 +1,18 @@
+.menubar{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100vw;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+.menubar__image{
+    height: 94%;
+    margin-left: 0.5rem;
+}
+.modal__icon__openModal{
+    height: 100%;
+}

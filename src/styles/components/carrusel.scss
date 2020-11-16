@@ -1,0 +1,43 @@
+.carousel {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+  }
+  .carousel ul {
+    background-color: gold;
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+  }
+  .carousel li {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      width: 100%;
+  }
+  .carousel img {
+    width: 10rem;
+  }
+  @keyframes cambio {
+    0% {margin-left: 0;}
+
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+
+    100% {margin-left: -300%;}
+  }
+
+  
+  
