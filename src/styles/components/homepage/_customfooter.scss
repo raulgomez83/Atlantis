@@ -1,0 +1,42 @@
+.customFooter{
+    align-items: center;
+    background-color: black;
+    color:$gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.agencia{
+    height: 90%;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+
+}
+.contacto{
+    background-color: $gold;
+    color:black;
+    padding: 1rem;
+    list-style: none
+}
+.footer__icon{
+    margin-right: 0.2rem;
+    width: 1rem;
+}
+.socialmedia{
+    padding:2rem 2rem 5rem;
+    & h3{
+        margin-bottom: 1rem;
+    }
+    & nav{
+         display: flex;
+         justify-content: space-between;
+         width: 40vw;
+
+    }
+    }
+.socialmedia__icon {
+        height: 3rem;
+        width: 3rem;}
+
+

@@ -5,6 +5,7 @@ import { Carrusel } from '../Carrusel';
 import { Menubar } from '../Menubar';
 import {  BloqueInfo } from './BloqueCatalogo';
 import { BloqueViajes } from './BloqueViajes';
+import { CustomFooter } from './CustomFooter';
 
 
 
@@ -15,6 +16,7 @@ export const HomePage = () => {
             <Carrusel/>
             <BloqueInfo/>
             <BloqueViajes/>
+            <CustomFooter/>
             
         </div>
     )
