@@ -10,7 +10,7 @@ export const CustomFooter = () => {
     return (
         <div className="customFooter">
             <div className="agencia">
-                <h1>Atlantis Travel  </h1><h2>Cuatro Caminos</h2><p>es una agencia de viajes
+                <h2>ATLANTIS TRAVEL  </h2><h3>Cuatro Caminos</h3><p>es una agencia de viajes
                 fundada en 1992 donde la experiencia e innovación se dan la mano para diseñar un  
                 viaje personalizado para el viajero más exigente.<br/>Licencia: XG-123</p>
             </div>
