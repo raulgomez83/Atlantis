@@ -1,19 +1,19 @@
 .menubar{
-    align-items: baseline;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 10vh;
-    margin-bottom: 0.5rem;
+    height: 12vh;
     position: sticky;
     top:0;
     width: 100%;
     z-index: 3;
+    background-color: black;
 }
 .menubar__image{
     height: 90%;
-    margin: 0.5rem;
+    margin: 1rem;
 }
 .modal__icon__openModal{
-    height: 80%;
-    margin-right: 0.5rem;
+    height: 50%;
+    margin: 0.5rem 1rem 0 0;
 }

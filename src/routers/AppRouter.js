@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect, Route,BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import { HomePage } from '../components/HomePage';
+import { HomePage } from '../components/homepage/HomePage';
 import { Catalogos } from '../components/Catalogos';
 import { Consultas } from '../components/Consultas';
 import { Destinos } from '../components/Destinos';

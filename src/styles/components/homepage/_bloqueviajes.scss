@@ -1,0 +1,28 @@
+.bloque__images{
+    width: 100vw;
+    height: 40vh;
+    & p{
+        background-color: rgba($color: $gold, $alpha: 0.2);
+        font-size: 2rem;
+        font-weight: bold;
+        color: darken($color: $gold, $amount: 50);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 0.5px 0.5px $gold;
+        
+    }
+}
+.container1 {
+    background-image: url(../../../images/novios.jpeg);
+    background-size: cover;
+}
+.container2{
+    background-image: url(../../../images/lejos.jpeg);
+    background-size: cover;
+}
+.container3{
+    background-image: url(../../../images/disney.jpeg);
+    background-size: cover;
+}
