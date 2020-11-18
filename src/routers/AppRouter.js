@@ -1,7 +1,7 @@
 import React from 'react';
-import { Redirect, Route, Router, Switch } from 'react-router-dom';
+import { Redirect, Route,BrowserRouter as Router, Switch } from 'react-router-dom';
 
-import { Atlantis } from '../Atlantis';
+import { HomePage } from '../components/HomePage';
 import { Catalogos } from '../components/Catalogos';
 import { Consultas } from '../components/Consultas';
 import { Destinos } from '../components/Destinos';
@@ -12,11 +12,11 @@ export const AppRouter = () => {
         <Router> 
             <div>
                 <Switch>
-                  <Route exact path="/" component={Atlantis}/>
-                  <Route exact path="/consultas" component={Consultas}/>
-                  <Route exact path="/ofertas" component={Ofertas}/>
-                  <Route exact path="/catalogos" component={Catalogos}/>
+                  <Route exact path="/" component={HomePage}/>
                   <Route exact path="/destinos" component={Destinos}/> 
+                  <Route exact path="/catalogos" component={Catalogos}/>
+                  <Route exact path="/ofertas" component={Ofertas}/>
+                  <Route exact path="/consultas" component={Consultas}/>
 
                   <Redirect to="/" />
                 </Switch>

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./styles/styles.scss"
 
-import { Atlantis } from './Atlantis';
+import { AtlantisApp } from './AtlantisApp';
+import "./styles/styles.scss"
 
 
 ReactDOM.render(
-    <Atlantis />,
+    <AtlantisApp />,
   document.getElementById('root')
 );
