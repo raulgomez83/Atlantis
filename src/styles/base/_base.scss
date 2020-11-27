@@ -23,6 +23,9 @@
      width: 100vw;
  }
   main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     margin-top: 100vh;
     &::before {
@@ -35,3 +38,4 @@
      text-decoration: none;
      color: $gold;
  }
+ 

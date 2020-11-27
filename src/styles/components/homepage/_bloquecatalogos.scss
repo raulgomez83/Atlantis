@@ -1,10 +1,23 @@
 .info{
     align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-size: 1.2rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem 1rem;
 }
 .info_icono{
     width: 3rem;
+    margin-bottom: 1rem;
+}
+@media (min-width: 700px) {
+.info{
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    & p{
+        width:60vw
+    }
+}
+
 }

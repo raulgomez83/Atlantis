@@ -6,6 +6,7 @@ export const Nosotros = () => {
     return (
         <article className="nosotros ">
             <h2>Sobre Nosotros</h2>
+            <section className="nosotros__section">
             <img src={anet}  alt="foto Anet"/>
             <p>“El mundo es un libro y aquellos que no viajan sólo ven una página”. 
                 Esta frase, falsamente atribuida a San Agustín de Hipona, retrata a la perfección 
@@ -17,6 +18,8 @@ export const Nosotros = () => {
                  de otras ciudades europeas, pero al mismo tiempo quieren seguir gastando en
                   regalos.
             </p>
+            </section>
+            
             
         </article>
     )

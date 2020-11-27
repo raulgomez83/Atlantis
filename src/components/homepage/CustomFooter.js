@@ -3,8 +3,7 @@ import React from 'react';
  import direccion from "../../images/direccion.png"; 
  import telefono from "../../images/telefono.png";
  import email from "../../images/email.png";
- import facebook from "../../images/facebook.png";
- import instagram from "../../images/instagram.png"
+
 
 export const CustomFooter = () => {
     return (
