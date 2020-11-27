@@ -1,9 +1,13 @@
-.info{
+
+.catalogo{
+    margin:2rem 1rem;
+}.catalogo__info{
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 1.2rem;
+    
     padding: 1rem 1rem 1rem;
 }
 .info_icono{
@@ -14,7 +18,7 @@
 .info{
     flex-direction: row;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     & p{
         width:60vw
     }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { Modal } from './Modal';
 
-import logo from "../images/logo.png";
+/* import logo from "../images/logo.png"; */
 import icon from "../images/menuIcon.png";
 
 
@@ -12,6 +12,9 @@ export const Menubar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const handleModal =()=>{
         return setIsOpen(!isOpen)
+
+
+        
     }
     return (
         <div className="menubar">

@@ -15,7 +15,7 @@ export const CustomFooter = () => {
                 <li><img className="footer__icon"src={email}alt=""/>Email: <b>reservas@atlantistravel.es</b></li>
             </ul>
             <div className="agencia">
-                <h2>ATLANTIS TRAVEL  </h2><h3>Cuatro Caminos</h3><p>es una agencia de viajes
+                <h2>ATLANTIS  </h2><h3>byAnet</h3><p>es una agencia de viajes
                 fundada en 1992 donde la experiencia e innovación se dan la mano para diseñar un  
                 viaje personalizado para el viajero más exigente.<br/>Licencia: XG-123</p>
             </div>
