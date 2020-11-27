@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import catalogo from "../../images/catalogo.png";
-import destino from "../../images/alrededor.png";
+/* import destino from "../../images/alrededor.png"; */
 import contacto from "../../images/contacto.png";
 
 export const BloqueInfo = () => {
@@ -14,11 +14,11 @@ export const BloqueInfo = () => {
             nuestros <Link to="/catalogos"><strong>CATÁLOGOS, </strong><br/></Link> basados en la
             experiencia de nuestros clientes.</p>
         </div> 
-        <div className="info">
+        {/* <div className="info">
             <img className="info_icono"src={destino} alt="icono destinos"/>
             <p>Elige entre los mejores  <Link to="/destinos"><strong> DESTINOS, </strong><br/></Link> 
             seleccionados por nuestros agentes, para que disfrutes de tus vacaciones.</p>
-        </div>
+        </div> */}
         <div className="info">
             <img className="info_icono"src={contacto} alt="icono contacto"/>
             <p>...y si te queda alguna pregunta, no dudes en <Link to="/consultas"><strong> CONSÚLTARNOS, </strong><br/></Link> 

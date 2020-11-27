@@ -4,8 +4,10 @@ import { Redirect, Route,BrowserRouter as Router, Switch } from 'react-router-do
 import { HomePage } from '../components/homepage/HomePage';
 import { Catalogos } from '../components/Catalogos';
 import { Consultas } from '../components/Consultas';
-import { Destinos } from '../components/Destinos';
+import { ListaDestinos } from '../components/destinos/ListaDestinos';
 import { Ofertas } from '../components/Ofertas';
+import { DestinoItem } from '../components/destinos/DestinoItem';
+
 
 export const AppRouter = () => {
     return (
@@ -13,7 +15,8 @@ export const AppRouter = () => {
             <div>
                 <Switch>
                   <Route exact path="/" component={HomePage}/>
-                  <Route exact path="/destinos" component={Destinos}/> 
+                  <Route exact path="/destinos" component={ListaDestinos}/> 
+                  <Route exact path="/destinos/:Id" component={DestinoItem}/> 
                   <Route exact path="/catalogos" component={Catalogos}/>
                   <Route exact path="/ofertas" component={Ofertas}/>
                   <Route exact path="/consultas" component={Consultas}/>

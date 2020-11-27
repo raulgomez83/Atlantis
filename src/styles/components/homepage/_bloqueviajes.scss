@@ -13,15 +13,19 @@
         text-shadow: 0.5px 0.5px $gold;
     }
 }
-.container1 {
+.container_novios {
     background-image: url(../../../images/novios.jpeg);
     background-size: cover;
 }
-.container2{
+.container_distancia{
     background-image: url(../../../images/lejos.jpeg);
     background-size: cover;
 }
-.container3{
+.container_familia{
     background-image: url(../../../images/disney.jpeg);
+    background-size: cover;
+}
+.container_playa{
+    background-image: url(../../../images/playa.jpeg);
     background-size: cover;
 }

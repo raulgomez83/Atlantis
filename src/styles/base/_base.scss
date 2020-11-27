@@ -1,4 +1,12 @@
 
+@mixin coverer {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,6 +22,15 @@
      text-align: center;
      width: 100vw;
  }
+  main{
+    position: relative;
+    margin-top: 100vh;
+    &::before {
+      content: "";
+      @include coverer;
+      top: -100vh;
+    }
+  }
  a{
      text-decoration: none;
      color: $gold;

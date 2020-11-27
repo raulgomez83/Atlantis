@@ -1,9 +1,12 @@
 import React from 'react'
+import { CustomFooter } from './homepage/CustomFooter'
+import { Menubar } from './Menubar'
 
 export const Consultas = () => {
     return (
         <div>
-            <h2>Consultas</h2>
+            <Menubar/>
+            <CustomFooter/>
         </div>
     )
 }

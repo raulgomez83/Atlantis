@@ -64,19 +64,11 @@ header{
 }
 .modal__icon__close{
   height:1.5rem;
-  transition: 0.5s;
-   &:hover{
-      transform: scale(1.4)
-   }
 }
 .modal__box li{
   font-size: 2rem;
   transition: 0.4s;
   color:$gold;
-  &:hover{
-    transform: scale(1.4);
-    cursor: pointer;
-  }
 }
 .modal__logo{
     height: 5rem;

@@ -4,7 +4,6 @@
     overflow: hidden;
     align-items: center;
     height: 15rem;
-
   }
   .carousel ul {
     align-items: center;
@@ -14,7 +13,7 @@
     width: 400%;
     animation: cambio 20s infinite alternate linear;
   }
-  .carousel li {
+  .photo {
       list-style: none;
       width: 100vw;
   }

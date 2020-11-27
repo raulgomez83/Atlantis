@@ -17,11 +17,11 @@ export const Modal = ({handleModal,open}) => {
                     <img  src={close} alt="icono cerrar" onClick={handleModal} className="modal__icon__close"/>
                 </header>
                 <ul>
-                    <li><Link className="link"to="/">Home</Link></li>
+                    <li><Link className="link"to="/">Inicio</Link></li>
                     <li><Link className="link"to="/destinos"> Destinos</Link></li>
                     <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
                     <li><Link className="link"to="/catalogos">Catálogos</Link></li>
-                    <li><Link className="link"to="/consultas">Consúltanos</Link></li>
+                    <li><Link className="link"to="/consultas">Contacto</Link></li>
                 </ul>
               </nav>
         </div>

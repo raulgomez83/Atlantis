@@ -17,11 +17,14 @@
     background-color: $gold;
     color:black;
     padding: 1rem;
-    list-style: none
+    list-style: none;
+    & h2{
+        margin-bottom: 1rem;
+    }
 }
 .footer__icon{
     margin-right: 0.2rem;
-    width: 1rem;
+    width: 1.3rem;
 }
 .socialmedia{
     padding:2rem 2rem 5rem;
@@ -36,7 +39,12 @@
     }
     }
 .socialmedia__icon {
-        height: 3rem;
-        width: 3rem;}
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    }
+ iframe{
+        margin-top: 1rem;
+    }
 
 

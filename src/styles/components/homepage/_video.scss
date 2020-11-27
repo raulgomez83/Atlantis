@@ -1,3 +1,12 @@
+.video__container{
+      position: absolute;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    &, video, .viewport-header {
+      @include coverer;
+  }
+}
 video{
-    height:35vh;
+      object-fit: cover;
 }
