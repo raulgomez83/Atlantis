@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import logo from "../images/logo.png";
 import close from "../images/close.png" 
 import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png"
+import instagram from "../images/instagram.png";
 
 export const Modal = ({handleModal,open}) => {
 
@@ -26,7 +26,7 @@ export const Modal = ({handleModal,open}) => {
                     <li><Link className="link"to="/oceania"> Oceania</Link></li>
                     <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
                     <li><Link className="link"to="/consultas">Contacto</Link></li>
-                    <li> 
+                    <li>
                         <nav className="socialmedia">
                             <a href="https://www.facebook.com/atlantisbyanet/"> <img className="socialmedia__icon" src={facebook}  alt="icono facebook"/></a>
                             <a href="https://www.instagram.com/atlantis_byanet/"><img className="socialmedia__icon"src={instagram} alt="icono instagram"/></a>
