@@ -8,6 +8,7 @@
     margin :2rem 0;
 }
 .agencia{
+    grid-area: age;
     height: 90%;
     margin: 2rem 0;
     padding: 0.5rem;
@@ -17,6 +18,7 @@
 .contacto{
     background-color: $gold;
     color:black;
+    grid-area: ofi;
     padding: 1rem;
     list-style: none;
     & h2{
@@ -30,5 +32,30 @@
 
  iframe{
         margin: 0 0 1rem;
+        grid-area: map;
     }
 
+    @media (min-width: 1080px) {
+
+        .customFooter{
+            align-items: start;
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            grid-template-areas: 
+            "age map ofi"
+        }
+        .agencia{
+            width: 30vw;
+            margin: 2rem;
+        }
+        .contacto{
+            background-color: black;
+            color: $gold;
+            margin-top: 3rem;
+            width: 35vw;
+        }
+        iframe{
+            height: 15rem;
+            margin-top: 2rem;
+        }
+    }

@@ -19,7 +19,7 @@ export const BloqueInfo = () => {
             <p>Elige entre los mejores  <Link to="/destinos"><strong> DESTINOS, </strong><br/></Link> 
             seleccionados por nuestros agentes, para que disfrutes de tus vacaciones.</p>
         </div> */}
-        <div className="catatlogo__info">
+        <div className="catalogo__info">
             <img className="info_icono"src={contacto} alt="icono contacto"/>
             <p>...y si te queda alguna pregunta, no dudes en <Link to="/consultas"><strong> CONSÚLTARNOS, </strong><br/></Link> 
             podremos hacer de tu viaje una experiencia única e inolvidable.</p>

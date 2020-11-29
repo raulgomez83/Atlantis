@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
+    grid-area: nos;
     & h2{
         font-size: 2rem;
         margin-bottom: 1rem;
@@ -15,7 +16,8 @@
         margin: 0 2rem;
     }
 }
-@media (min-width: 600px) {
+
+@media (min-width: 700px) {
 .nosotros h2{
     font-size: 3rem;
     margin-bottom: 2rem;

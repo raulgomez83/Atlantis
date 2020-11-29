@@ -1,5 +1,5 @@
 
-import React,{useEffect, useState} from 'react';
+import React,{useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import { Modal } from './Modal';
@@ -16,20 +16,11 @@ export const Menubar = () => {
         return setIsOpen(!isOpen);
     }
 
-
-
-    const widthScreen=window.innerWidth; 
-
-  
+  /* Hace que el elmento no de null al renderizarse
      useEffect(() => {
         const menubarTv =document.getElementsByClassName("menubar__tv");
         console.log(menubarTv[0],0); 
-     });
-     
-   /* if (widthScreen < 600) {
-      
-   }*/
-  
+     }) */
     return (
         <div className="menubar">
             <Link to="/">{/* <img className="menubar__image"src={logo} alt="logo de la agencia" /> */}

@@ -1,11 +1,18 @@
-import React from 'react';
+import React/*,  { useEffect } */ from 'react';
 
- import direccion from "../../images/direccion.png"; 
+ import direccion from "../../images/direccion.png";
  import telefono from "../../images/telefono.png";
  import email from "../../images/email.png";
 
 
 export const CustomFooter = () => {
+
+   /*  useEffect(() => {
+        const oficina =document.querySelector(".contacto").firstChild;
+        const pantalla=window.innerWidth;
+        if (pantalla>1080){
+            oficina.style.visibility="hidden"}
+     }) */
     return (
         <div className="customFooter">
             <ul className="contacto">
@@ -15,7 +22,7 @@ export const CustomFooter = () => {
                 <li><img className="footer__icon"src={email}alt=""/>Email: <b>reservas@atlantistravel.es</b></li>
             </ul>
             <div className="agencia">
-                <h2>ATLANTIS  </h2><h3>byAnet</h3><p>es una agencia de viajes
+                <h2>ATLANTIS  </h2><h3>byAnet</h3><br/><p>es una agencia de viajes
                 fundada en 1992 donde la experiencia e innovación se dan la mano para diseñar un  
                 viaje personalizado para el viajero más exigente.<br/>Licencia: XG-123</p>
             </div>

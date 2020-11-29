@@ -1,13 +1,14 @@
 
 .catalogo{
     margin:2rem 1rem;
-}.catalogo__info{
+    grid-area: info;
+}
+.catalogo__info{
     align-items: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: column; 
+    justify-content: space-between;
     font-size: 1.2rem;
-    
     padding: 1rem 1rem 1rem;
 }
 .info_icono{
@@ -24,4 +25,13 @@
     }
 }
 
+}
+@media (min-width: 1080px) {
+    .catalogo{
+        display: flex;
+    }
+
+    .catalogo__info{
+        width: 40vw;
+    }
 }
