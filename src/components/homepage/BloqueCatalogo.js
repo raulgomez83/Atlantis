@@ -12,7 +12,7 @@ export const BloqueInfo = () => {
             <img className="info_icono"src={catalogo} alt="icono catalogo"/>
             <p>Consulta toda la información que desees de tus destinos favoritos con
             nuestros <Link to="/catalogos"><strong>CATÁLOGOS, </strong><br/></Link> basados en la
-            experiencia de nuestros clientes.</p>
+            experiencia vividas por nuestros clientes en sus viajes.</p>
         </div> 
         {/* <div className="info">
             <img className="info_icono"src={destino} alt="icono destinos"/>

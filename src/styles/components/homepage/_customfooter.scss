@@ -40,6 +40,7 @@
         .customFooter{
             align-items: start;
             display: grid;
+            font-size: 1.3rem;
             grid-template-columns: repeat(3,auto);
             grid-template-areas: 
             "age map ofi"
@@ -51,7 +52,7 @@
         .contacto{
             background-color: black;
             color: $gold;
-            margin-top: 3rem;
+            margin: 2rem 0 2rem -1rem;
             width: 35vw;
         }
         iframe{
