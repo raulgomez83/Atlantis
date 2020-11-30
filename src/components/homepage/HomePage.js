@@ -9,6 +9,7 @@ import { Carrusel } from '../Carrusel';
 import { Video } from './Video';
 import { Nosotros } from './Nosotros';
 import { Modal } from '../Modal';
+import { SocialMedia } from '../SocialMedia';
 
 
 
@@ -25,7 +26,7 @@ export const HomePage = () => {
                 <BloqueInfo/>
                 {/* <BloqueViajes/> */}
                 <CustomFooter/>
-                <a href="https://api.whatsapp.com/send?phone=34620746902"> <h1>Holi</h1></a>
+                <SocialMedia/>
             </main>
         </div>
     )

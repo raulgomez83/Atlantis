@@ -5,6 +5,7 @@ import React/*,  { useEffect } */ from 'react';
  import email from "../../images/email.png";
 
 
+
 export const CustomFooter = () => {
 
    /*  useEffect(() => {

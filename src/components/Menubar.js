@@ -8,6 +8,8 @@ import { Modal } from './Modal';
 import icon from "../images/menuIcon.png";
 import facebook from "../images/facebook.png";
 import instagram from "../images/instagram.png";
+import chat from "../images/chat.png";
+
 
 
 export const Menubar = () => {
@@ -34,10 +36,11 @@ export const Menubar = () => {
                 <li><Link className="link"to="/oceania"> Oceania</Link></li>
                 <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
                 <li><a className="link"href="#customFooter">Contacto</a></li>
-                <li>
-                    <nav className="socialmedia">
+                <li> 
+                    <nav className="menubar__socialmedia ">
                         <a href="https://www.facebook.com/atlantisbyanet/"> <img className=" menubar__socialmedia__icon" src={facebook}  alt="icono facebook"/></a>
                         <a href="https://www.instagram.com/atlantis_byanet/"><img className="menubar__socialmedia__icon"src={instagram} alt="icono instagram"/></a>
+                        <a href="https://api.whatsapp.com/send?phone=34*********"> <img className="menubar__socialmedia__icon"src={chat} alt="icono whatsapp"/></a>
                     </nav>
                 </li>
             </ul>
