@@ -25,7 +25,7 @@ export const HomePage = () => {
                 <BloqueInfo/>
                 {/* <BloqueViajes/> */}
                 <CustomFooter/>
-                <a href="https://api.whatsapp.com/send?phone=34696165777"> <h1>Holi</h1></a>
+                <a href="https://api.whatsapp.com/send?phone=34620746902"> <h1>Holi</h1></a>
             </main>
         </div>
     )
