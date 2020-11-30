@@ -14,7 +14,7 @@ export const CustomFooter = () => {
             oficina.style.visibility="hidden"}
      }) */
     return (
-        <div className="customFooter">
+        <div id="customFooter"className="customFooter">
             <ul className="contacto">
                 <li><h2>Oficina</h2></li>
                 <li><img className="footer__icon"src={direccion}alt=""/>Dirección: <b><br/>Rua Concepción Arenal 17,<br/> 15006 A Coruña</b></li>

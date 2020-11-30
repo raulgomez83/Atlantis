@@ -11,6 +11,8 @@ import { Nosotros } from './Nosotros';
 import { Modal } from '../Modal';
 
 
+
+
 export const HomePage = () => {
     return (
         <div className="wrapper">
@@ -23,6 +25,7 @@ export const HomePage = () => {
                 <BloqueInfo/>
                 {/* <BloqueViajes/> */}
                 <CustomFooter/>
+                <a href="https://api.whatsapp.com/send?phone=34696165777"> <h1>Holi</h1></a>
             </main>
         </div>
     )

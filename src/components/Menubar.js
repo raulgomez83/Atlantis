@@ -33,7 +33,7 @@ export const Menubar = () => {
                 <li><Link className="link"to="/europa"> Europa</Link></li>
                 <li><Link className="link"to="/oceania"> Oceania</Link></li>
                 <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
-                <li><Link className="link"to="/consultas">Contacto</Link></li>
+                <li><a className="link"href="#customFooter">Contacto</a></li>
                 <li>
                     <nav className="socialmedia">
                         <a href="https://www.facebook.com/atlantisbyanet/"> <img className=" menubar__socialmedia__icon" src={facebook}  alt="icono facebook"/></a>
