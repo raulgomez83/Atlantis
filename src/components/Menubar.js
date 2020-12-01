@@ -25,9 +25,18 @@ export const Menubar = () => {
      }) */
     return (
         <div className="menubar">
-            <Link to="/">{/* <img className="menubar__image"src={logo} alt="logo de la agencia" /> */}
-            <div className="nombre"><h2>ATLANTIS </h2><h4> by Anet</h4></div>
-            </Link>
+            <div className="nombre">
+                <Link to="/">{/* <img className="menubar__image"src={logo} alt="logo de la agencia" /> */}
+                    <h4><b>ATLANTIS</b> by Anet</h4>
+                </Link>
+                <div className="menubar__mobile" >
+                    <img src={icon}  alt="icono de menú" onClick={handleModal}
+                         className="modal__icon__openModal"/>
+                    <Modal open={isOpen}
+                      handleModal={handleModal}>
+                    </Modal>
+                </div>
+            </div>
             <ul className="menubar__tv" >
                 <li><Link className="link"to="/africa"> África</Link></li>
                 <li><Link className="link"to="/america"> América</Link></li>
@@ -44,13 +53,7 @@ export const Menubar = () => {
                     </nav>
                 </li>
             </ul>
-            <div className="menubar__mobile" >
-                <img src={icon}  alt="icono de menú" onClick={handleModal}
-                     className="modal__icon__openModal"/>
-                <Modal open={isOpen}
-                  handleModal={handleModal}>
-                </Modal>
-            </div>
+            
         </div>
     )
 }

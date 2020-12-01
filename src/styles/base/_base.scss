@@ -10,11 +10,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
  }
  html,body{
      background-color: black;
      color:$gold;
-     height: 100vh;
+     height: auto;
      margin: 0;
      padding: 0;
      text-align: center;
@@ -25,11 +26,11 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 100vh;
+    margin-top: 90vh;
     &::before {
       content: "";
       @include coverer;
-      top: -100vh;
+      top: -90vh;
     }
   }
  a{

@@ -2,11 +2,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+import { SocialMedia } from './SocialMedia';
+
 import logo from "../images/logo.png";
 import close from "../images/close.png" 
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
-import { SocialMedia } from './SocialMedia';
 
 export const Modal = ({handleModal,open}) => {
 
