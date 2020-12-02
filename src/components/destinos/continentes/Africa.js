@@ -1,7 +1,7 @@
-import React from 'react'
-import { useLocation, useParams } from 'react-router-dom'
-import { Menubar } from '../../Menubar'
-import { Destinos } from '../Destinos'
+import React from 'react';
+
+import { Menubar } from '../../Menubar';
+import { Destinos } from '../Destinos';
 
 
 

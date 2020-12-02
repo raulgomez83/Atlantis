@@ -27,7 +27,7 @@ export const AppRouter = () => {
                   <Route exact path="/europa" component={Europa}/>
                   <Route exact path="/oceania" component={Oceania}/>
                   <Route path={`/:continente/:pais`} children={<DestinoItem/>}/>
-                  <Route exact path="/catalogos" component={Catalogos}/>
+                  <Route exact path="/catalogo" component={Catalogos}/>
                   <Route exact path="/ofertas" component={Ofertas}/>
                   <Route exact path="/consultas" component={Consultas}/>
                   <Redirect to="/" />

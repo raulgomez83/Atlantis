@@ -5,7 +5,42 @@ export const destinos=[
     "continente":"Asia",
     "ocio":"distancia",
     "imagen":"../assets/images/thai.jpeg",
-    "catalogos":["../catalogos/menu.pdf","../catalogos/menu.pdf","../catalogos/menu.pdf","../catalogos/menu.pdf","../catalogos/menu.pdf","../catalogos/menu.pdf",]
+    "catalogos":[
+        {
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}  
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+        ,{
+            "nombre":"ruta_templos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/menu.pdf"}
+
+
+    ]
 },
 {
     "id":"dubai",
@@ -13,12 +48,12 @@ export const destinos=[
     "continente":"Asia",
     "ocio":"playa",
     "imagen":"../assets/images/dubai.jpeg",
-    "catalogos":["../catalogos/menu.pdf"],
+    "catalogos":["./src/catalogos/menu.pdf"],
 },
 {
     "id":"lasvegas",
     "pais":"EE.UU.",
-    "continente":"America",
+    "continente":"Asia",
     "ocio":"distancia",
     "imagen":"../assets/images/lasvegas.jpeg",
     "catalogos":["../catalogos/menu.pdf"],
@@ -26,7 +61,7 @@ export const destinos=[
 {
     "id":"italia",
     "pais":"Italia",
-    "continente":"Europa",
+    "continente":"Asia",
     "ocio":"cultural",
     "imagen":"../assets/images/rome.jpeg",
     "catalogos":["../catalogos/menu.pdf"],
@@ -34,7 +69,7 @@ export const destinos=[
 {
     "id":"kenia",
     "pais":"Kenia",
-    "continente":"Africa",
+    "continente":"Asia",
     "ocio":"distancia",
     "imagen":"../assets/images/kenia.jpeg",
     "catalogos":["../catalogos/menu.pdf"],
@@ -43,14 +78,10 @@ export const destinos=[
 {
     "id":"españa",
     "pais":"España",
-    "continente":"Europa",
+    "continente":"Asia",
     "ocio":"playa",
     "imagen":"../assets/images/tenerife.jpeg",
     "catalogos":["../catalogos/menu.pdf"],
     
 },
-
-
-
-
 ]

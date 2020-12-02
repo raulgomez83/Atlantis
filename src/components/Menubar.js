@@ -18,11 +18,6 @@ export const Menubar = () => {
         return setIsOpen(!isOpen);
     }
 
-  /* Hace que el elmento no de null al renderizarse
-     useEffect(() => {
-        const menubarTv =document.getElementsByClassName("menubar__tv");
-        console.log(menubarTv[0],0); 
-     }) */
     return (
         <div className="menubar">
             <div className="nombre">
