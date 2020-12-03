@@ -25,7 +25,7 @@ export const Modal = ({handleModal,open}) => {
                     <li><Link className="link"to="/europa"> Europa</Link></li>
                     <li><Link className="link"to="/oceania"> Oceania</Link></li>
                     <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
-                    <li><Link className="link"to="/consultas">Contacto</Link></li>
+                    <li><Link className="link"to="/contacto">Contacto</Link></li>
                     <li>
                         <SocialMedia/>
                     </li>

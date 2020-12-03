@@ -20,14 +20,18 @@ export const AppRouter = () => {
             <div>
                 <Switch>
                   <Route exact path="/" component={HomePage}/>
+
                   <Route exact path="/africa" component={Africa}/>
                   <Route exact path="/america" component={America}/>
                   <Route exact path="/asia" component={Asia}/>
                   <Route exact path="/europa" component={Europa}/>
                   <Route exact path="/oceania" component={Oceania}/>
+
                   <Route path={`/:continente/:pais`} children={<DestinoItem/>}/>
+
                   <Route exact path="/ofertas" component={Ofertas}/>
                   <Route exact path="/contacto" component={ContactoPage}/>
+
                   <Redirect to="/" />
                 </Switch>
             </div>
