@@ -1,4 +1,4 @@
-.customFooter{
+.contact{
     align-items: center;
     background-color: black;
     color:$gold;
@@ -25,7 +25,7 @@
         margin-bottom: 1rem;
     }
 }
-.footer__icon{
+.contact__icon{
     margin-right: 0.2rem;
     width: 1.3rem;
 }
@@ -36,7 +36,7 @@
 
     @media (min-width: 1080px) {
 
-        .customFooter{
+        .contact{
             align-items: start;
             display: grid;
             font-size: 1.3rem;

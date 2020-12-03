@@ -6,7 +6,7 @@ import React/*,  { useEffect } */ from 'react';
 
 
 
-export const CustomFooter = () => {
+export const Contacto = () => {
 
    /*  useEffect(() => {
         const oficina =document.querySelector(".contacto").firstChild;
@@ -15,12 +15,12 @@ export const CustomFooter = () => {
             oficina.style.visibility="hidden"}
      }) */
     return (
-        <div id="customFooter"className="customFooter">
+        <div id="contacto"className="contact">
             <ul className="contacto">
                 <li><h2>Oficina</h2></li>
-                <li><img className="footer__icon"src={direccion}alt=""/>Dirección: <b><br/>Rua Concepción Arenal 17,<br/> 15006 A Coruña</b></li>
-                <li><img className="footer__icon"src={telefono}alt=""/>Teléfono: <b>981 17 40 36</b></li>
-                <li><img className="footer__icon"src={email}alt=""/>Email: <b>reservas@atlantistravel.es</b></li>
+                <li><img className="contact__icon"src={direccion}alt=""/>Dirección: <b><br/>Rua Concepción Arenal 17,<br/> 15006 A Coruña</b></li>
+                <li><img className="contact__icon"src={telefono}alt=""/>Teléfono: <b>981 17 40 36</b></li>
+                <li><img className="contact__icon"src={email}alt=""/>Email: <b>reservas@atlantistravel.es</b></li>
             </ul>
             <div className="agencia">
                 <h2>ATLANTIS  </h2><h3>byAnet</h3><br/><p>es una agencia de viajes

@@ -1,12 +1,15 @@
 import React from 'react'
+import { Contacto } from './homepage/Contacto'
 import { CustomFooter } from './CustomFooter'
 import { Menubar } from './Menubar'
+import { SocialMedia } from './SocialMedia'
 
-export const Ofertas = () => {
+export const ContactoPage= () => {
     return (
         <div>
             <Menubar/>
-            <h2>Ofertas</h2>
+            <SocialMedia/>
+            <Contacto/>
             <CustomFooter/>
         </div>
     )

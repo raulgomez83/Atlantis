@@ -6,36 +6,36 @@ export const destinos=[
     "ocio":"distancia",
     "imagen":"../assets/images/thai.jpeg",
     "catalogos":[
-        {
-            "nombre":"ruta_templos",
+        {   "idC":1,
+            "nombre":"ruta_twempleos",
+            "portada":"../assets/images/dubai.jpeg",
+            "ruta":"../catalogos/1.pdf"}
+        ,{"idC":2,
+            "nombre":"ruta_tempwlos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/uno.pdf"}
+        ,{"idC":3,
+            "nombre":"ruta_tempqlos",
+            "portada":"../assets/images/thai.jpeg",
+            "ruta":"../catalogos/dos.pdf"}  
+        ,{"idC":4,
+            "nombre":"ruta_tempqqlos",
             "portada":"../assets/images/thai.jpeg",
             "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
+        ,{"idC":5,
+            "nombre":"ruta_tempclos",
             "portada":"../assets/images/thai.jpeg",
             "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
-            "portada":"../assets/images/thai.jpeg",
-            "ruta":"../catalogos/menu.pdf"}  
-        ,{
-            "nombre":"ruta_templos",
+        ,{"idC":6,
+            "nombre":"ruta_tesmplos",
             "portada":"../assets/images/thai.jpeg",
             "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
+        ,{"idC":7,
+            "nombre":"ruta_templpos",
             "portada":"../assets/images/thai.jpeg",
             "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
-            "portada":"../assets/images/thai.jpeg",
-            "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
-            "portada":"../assets/images/thai.jpeg",
-            "ruta":"../catalogos/menu.pdf"}
-        ,{
-            "nombre":"ruta_templos",
+        ,{"idC":8,
+            "nombre":"ruta_templkos",
             "portada":"../assets/images/thai.jpeg",
             "ruta":"../catalogos/menu.pdf"}
 
