@@ -8,6 +8,7 @@ import { getDestinoByContinent } from './getDestinoByContinent';
 export const Destinos= ({continente}) => {
     
     const destinos=useMemo(()=> getDestinoByContinent(continente),[continente]);
+    console.log(destinos);
     return (<>
          <div className="destinos">
                 {destinos.map(destino=>(
