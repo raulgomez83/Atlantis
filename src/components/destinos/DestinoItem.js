@@ -14,8 +14,6 @@ export const DestinoItem = () => {
     const destino=useMemo(()=>getDestinoByPais(pais),[pais] );
     if (!destino){<Redirect to="/"/>};
     const {catalogos}=destino[0]
-  
-    
 
 
     return (
@@ -23,7 +21,8 @@ export const DestinoItem = () => {
             <Menubar/>
             <h1>{pais}</h1>
             <ul>
-                 {catalogos.map(catalogo=>(<Catalogo key={catalogo.idC} {...catalogo}>{catalogo.idC}</Catalogo>))}     
+                <h1>{pais}</h1>
+                 {catalogos.map(catalogo=>(<Catalogo key={catalogo.idC}{...catalogo}>{catalogo.idC}</Catalogo>))}     
             </ul>
             <OfertaDestino/>
             <CustomFooter/>

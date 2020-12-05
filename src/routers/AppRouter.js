@@ -10,14 +10,19 @@ import { Europa } from '../components/destinos/continentes/Europa';
 import { Oceania } from '../components/destinos/continentes/Oceania';
 import { DestinoItem } from '../components/destinos/DestinoItem';
 import { ContactoPage } from '../components/ContactoPage';
-
+import { Menubar } from '../components/Menubar';
+import { CustomFooter } from '../components/CustomFooter';
+import { Modal } from '../components/Modal';
 
 
 
 export const AppRouter = () => {
     return (
-        <Router> 
-            <div>
+        <Router>
+            <div >
+            <Menubar/>
+            <Modal/>
+            <CustomFooter/>
                 <Switch>
                   <Route exact path="/" component={HomePage}/>
 

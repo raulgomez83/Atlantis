@@ -13,10 +13,13 @@ import chat from "../images/chat.png";
 
 
 export const Menubar = () => {
+
+
     const [isOpen, setIsOpen] = useState(false);
     const handleModal =()=>{
-        return setIsOpen(!isOpen);
+        return setIsOpen(!isOpen);  
     }
+
 
     return (
         <div className="menubar">

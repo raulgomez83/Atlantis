@@ -9,7 +9,7 @@ import close from "../images/close.png"
 
 export const Modal = ({handleModal,open}) => {
 
-     if (!open) return null; 
+     if (!open) return null;
 
     return (
         <div className="modal__container">
@@ -19,13 +19,13 @@ export const Modal = ({handleModal,open}) => {
                     <img  src={close} alt="icono cerrar" onClick={handleModal} className="modal__icon__close"/>
                 </header>
                 <ul>
-                    <li><Link className="link"to="/africa"> África</Link></li>
-                    <li><Link className="link"to="/america"> América</Link></li>
-                    <li><Link className="link"to="/asia"> Asia</Link></li>
-                    <li><Link className="link"to="/europa"> Europa</Link></li>
-                    <li><Link className="link"to="/oceania"> Oceania</Link></li>
-                    <li><Link className="link"to="/ofertas">  Ofertas</Link></li>
-                    <li><Link className="link"to="/contacto">Contacto</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/africa"> África</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/america"> América</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/asia"> Asia</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/europa"> Europa</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/oceania"> Oceania</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/ofertas">  Ofertas</Link></li>
+                    <li><Link className="link" onClick={handleModal} to="/contacto">Contacto</Link></li>
                     <li>
                         <SocialMedia/>
                     </li>

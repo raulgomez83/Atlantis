@@ -16,6 +16,7 @@
      color:$gold;
      height: auto;
      margin: 0;
+     overflow-x: hidden;
      padding: 0;
      text-align: center;
      width: 100vw;
@@ -38,5 +39,8 @@
  }
  ul{
    list-style: none;
+ }
+ .continente__box{
+padding-top: 3rem;
  }
 

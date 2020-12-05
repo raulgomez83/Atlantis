@@ -1,12 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-import { Destinos } from '../Destinos'
-import { Menubar } from '../../Menubar'
+import { Destinos } from '../Destinos';
 
 export const Oceania = () => {
     return (
-        <div>
-             <Menubar/>
+        <div className="continente__box">
              <h1>Oceanía</h1>
              <Destinos continente={"Oceania"}/>
         </div>
