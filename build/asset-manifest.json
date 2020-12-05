@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb6fec0e.chunk.css",
+    "main.js": "/static/js/main.d26f8de8.chunk.js",
+    "main.js.map": "/static/js/main.d26f8de8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d1607a7c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d1607a7c.js.map",
+    "static/js/2.f2916fae.chunk.js": "/static/js/2.f2916fae.chunk.js",
+    "static/js/2.f2916fae.chunk.js.map": "/static/js/2.f2916fae.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.bb6fec0e.chunk.css.map": "/static/css/main.bb6fec0e.chunk.css.map",
+    "static/js/2.f2916fae.chunk.js.LICENSE.txt": "/static/js/2.f2916fae.chunk.js.LICENSE.txt",
+    "static/media/anet.f9b95c62.jpeg": "/static/media/anet.f9b95c62.jpeg",
+    "static/media/carousel1.0f09d482.jpeg": "/static/media/carousel1.0f09d482.jpeg",
+    "static/media/carousel2.4b388598.jpeg": "/static/media/carousel2.4b388598.jpeg",
+    "static/media/carousel3.bcdc4a97.jpeg": "/static/media/carousel3.bcdc4a97.jpeg",
+    "static/media/carousel4.84f7dd45.jpeg": "/static/media/carousel4.84f7dd45.jpeg",
+    "static/media/carousel5.649365cd.jpeg": "/static/media/carousel5.649365cd.jpeg",
+    "static/media/catalogo.3368da36.png": "/static/media/catalogo.3368da36.png",
+    "static/media/chat.123ce5bd.png": "/static/media/chat.123ce5bd.png",
+    "static/media/styles.scss": "/static/media/playa.eed62a8e.jpeg",
+    "static/media/direccion.8cdda06a.png": "/static/media/direccion.8cdda06a.png",
+    "static/media/email.ed4eda19.png": "/static/media/email.ed4eda19.png",
+    "static/media/logo.debffda2.png": "/static/media/logo.debffda2.png",
+    "static/media/video.d5236b71.mp4": "/static/media/video.d5236b71.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1607a7c.js",
+    "static/js/2.f2916fae.chunk.js",
+    "static/css/main.bb6fec0e.chunk.css",
+    "static/js/main.d26f8de8.chunk.js"
+  ]
+}
