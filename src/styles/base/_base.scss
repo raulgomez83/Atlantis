@@ -26,7 +26,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 90vh;
+    margin-top: 105vh;
     &::before {
       content: "";
       @include coverer;
@@ -41,6 +41,9 @@
    list-style: none;
  }
  .continente__box{
-padding-top: 3rem;
+padding-top: 4rem;
+ }
+ .contacto__page{
+   margin-top: 4rem;
  }
 

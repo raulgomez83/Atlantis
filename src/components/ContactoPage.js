@@ -1,16 +1,13 @@
-import React from 'react'
-import { Contacto } from './homepage/Contacto'
-import { CustomFooter } from './CustomFooter'
-import { Menubar } from './Menubar'
-import { SocialMedia } from './SocialMedia'
+import React from 'react';
+
+import { Contacto } from './homepage/Contacto';
+import { SocialMedia } from './SocialMedia';
 
 export const ContactoPage= () => {
     return (
-        <div>
-            <Menubar/>
+        <div className="contacto__page">
             <SocialMedia/>
             <Contacto/>
-            <CustomFooter/>
         </div>
     )
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import { Redirect, Route,BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import { HomePage } from '../components/homepage/HomePage';
-import { Ofertas } from '../components/Ofertas';
 import { Africa } from '../components/destinos/continentes/Africa';
 import { America } from '../components/destinos/continentes/America';
 import { Asia } from '../components/destinos/continentes/Asia';
@@ -13,6 +12,8 @@ import { ContactoPage } from '../components/ContactoPage';
 import { Menubar } from '../components/Menubar';
 import { CustomFooter } from '../components/CustomFooter';
 import { Modal } from '../components/Modal';
+import { Ofertas } from '../components/ofertas/Ofertas';
+
 
 
 

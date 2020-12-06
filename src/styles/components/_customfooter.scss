@@ -1,8 +1,11 @@
 .footer__parrafo{
 background-color: $gold;
+bottom: 0;
 color:black;
 font-size: 0.7em;
 padding: 0.5rem 0;
+position: fixed;
 width: 100vw;
+z-index: 10;
 
 }

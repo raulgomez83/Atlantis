@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { CustomFooter } from '../CustomFooter';
+
 import { ContactoDestino } from './ContactoDestino';
 import { DestinoCard } from './DestinoCard';
 import { getDestinoByContinent } from './getDestinoByContinent';
@@ -14,7 +14,6 @@ export const Destinos= ({continente}) => {
                 ))}
         </div>
         <ContactoDestino/>
-        <CustomFooter/>
         </>
     )
 }

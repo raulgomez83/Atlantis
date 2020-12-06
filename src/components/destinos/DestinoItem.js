@@ -2,7 +2,7 @@ import React, { /* useEffect, */ useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom';
 import { getDestinoByPais } from './getDestinoByPais';
 import { Catalogo } from './Catalogo';
-import { OfertaDestino } from './OfertaDestino';
+import {OfertaDestino} from "../ofertas/OfertaDestino"
 import { CustomFooter } from '../CustomFooter';
 import { Menubar } from '../Menubar';
 
