@@ -7,7 +7,7 @@ export const Catalogo = ({nombre,portada,idC}) => {
     return (
         <>
         <li className="catalogo__container">
-            <a href={(`/assets/images/${idC}.pdf`)} download="rutas"rel="noopener ">
+            <a href={(`/assets/pdf/${idC}.pdf`)} download="rutas"rel="noopener ">
                 <div className="catalogo__box"  style={liStyle}  >
                 <p className="catalogo__box__link">{nombre}</p>
                 </div>
