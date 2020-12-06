@@ -20,7 +20,7 @@ export const DestinoItem = () => {
         <div >
             <Menubar/>
             <h1>{pais}</h1>
-            <ul>
+            <ul className="catalogo">
                 <h1>{pais}</h1>
                  {catalogos.map(catalogo=>(<Catalogo key={catalogo.idC}{...catalogo}>{catalogo.idC}</Catalogo>))}     
             </ul>
