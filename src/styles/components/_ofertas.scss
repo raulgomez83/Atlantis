@@ -1,3 +1,12 @@
 .oferta__container{
     margin-top: 4rem;
 }
+.compra__imagen{
+    height: 3rem;
+}
+.compra__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
