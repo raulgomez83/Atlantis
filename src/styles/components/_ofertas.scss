@@ -16,21 +16,26 @@
     flex-direction: column;
     justify-content: center;
     & h2{
-        font-size: 2rem;
-        margin-bottom: 2rem;
+        margin: 2rem 0 1rem;
     }
-    & input{
-        background-color:lighten($color: $gold, $amount: 15);
-        margin: 0 0 0.4rem ;
-        padding: 0.5rem;
-        width: 15rem;
-    }
+   
     & label{
         font-size: 1.4rem;
     }
     & textarea{
         background-color:lighten($color: $gold, $amount: 15);
+        font-size: 1.2rem;
         margin: 1rem;
         resize:none;
     }
 }
+.formulario__input{
+    background-color:lighten($color: $gold, $amount: 15);
+    margin: 0 0 1rem ;
+    padding: 0.5rem;
+    width: 15rem;
+}
+.formulario__box{
+    padding: 2rem 1rem;
+}
+

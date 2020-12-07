@@ -25,7 +25,7 @@ export const OfertaCard = ({id,destino,imagen}) => {
                 <button className="custom__button">Comprar</button>
                 <img  className="compra__imagen"src={paypal} alt="paypal logo"/>
             </div>
-            <OfertaForm  open={formIsOpen} handleForm={handleForm}></OfertaForm>
+            <OfertaForm  open={formIsOpen} destino={destino} handleForm={handleForm}></OfertaForm>
         </div>
     )
 }

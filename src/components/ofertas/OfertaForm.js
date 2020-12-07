@@ -1,24 +1,30 @@
 import React from 'react'
 
-export const OfertaForm = ({handleForm,open}) => {
+export const OfertaForm = ({handleForm,open, destino}) => {
 
     if (!open) return null;
 
+    const handleCloseForm=()=>{
+        document.forms["contactForm"].submit()
+        handleForm();
+    }
 
     return (
         <div className="modal__container" >
-            <form id="formulario" className="modal__box" action="mailto:raul_eje@hotmail.com" method="post" name="contactForm">
-                <h2> Deja tus datos y contactaremos contigo lo antes posible</h2>
-                <label htmlFor="GET-name">*Nombre y Apellidos:</label>
-                <input id="GET-name" type="text" name="name" required></input>
-                <label htmlFor="GET-email">*Email:</label>
-                <input id="GET-email" type="email" name="email" required></input>
-                <label htmlFor="GET-phone">Teléfono:</label>
-                <input id="GET-phone" type="text" name="phone"></input>
-                <textarea name="textarea" rows="15" cols="40" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
-                <input className="custom__button form__buttom" onClick={handleForm} type="submit" name="Submit" value="Enviar"/>
-            </form>
-            
+            <div className="modal__box formulario__box">
+                <h2> Envía tus datos y contactaremos contigo lo antes posible</h2>
+                <form id="formulario"  action="mailto:raul_eje@hotmail.com" method="post" name="contactForm">
+                    <h2>Viaje a: {destino}</h2>
+                    <label htmlFor="GET-name">*Nombre y Apellidos:</label>
+                    <input className= "formulario__input"id="GET-name" type="text" name="name" required></input>
+                    <label htmlFor="GET-email">*Email:</label>
+                    <input  className= "formulario__input"id="GET-email" type="email" name="email" required></input>
+                    <label htmlFor="GET-phone">Teléfono:</label>
+                    <input className= "formulario__input"id="GET-phone" type="text" name="phone"></input>
+                    <textarea name="textarea" rows="12" cols="40" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
+                    <button className="custom__button" type="submit" onClick={handleCloseForm} name="Submit" >Enviar</button>
+                </form>
+            </div>
         </div>
     )
 }
