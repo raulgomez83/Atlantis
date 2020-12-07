@@ -10,3 +10,27 @@
     justify-content: center;
     align-items: center;
 }
+#formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    & h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    & input{
+        background-color:lighten($color: $gold, $amount: 15);
+        margin: 0 0 0.4rem ;
+        padding: 0.5rem;
+        width: 15rem;
+    }
+    & label{
+        font-size: 1.4rem;
+    }
+    & textarea{
+        background-color:lighten($color: $gold, $amount: 15);
+        margin: 1rem;
+        resize:none;
+    }
+}
