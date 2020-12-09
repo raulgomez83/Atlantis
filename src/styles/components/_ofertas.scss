@@ -1,5 +1,5 @@
 .oferta__container{
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 .compra__imagen{
     height: 3rem;
@@ -15,24 +15,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 2rem;
     & h2{
-        margin: 2rem 0 1rem;
-    }
-   
-    & label{
-        font-size: 1.4rem;
+        margin: 0.5rem 0 1rem;
     }
     & textarea{
         background-color:lighten($color: $gold, $amount: 15);
-        font-size: 1.2rem;
         margin: 1rem;
         resize:none;
     }
 }
+.img__form{
+    position: fixed;
+    margin: 0.5rem;
+    top:0;
+    right: 0;
+}
 .formulario__input{
     background-color:lighten($color: $gold, $amount: 15);
     margin: 0 0 1rem ;
-    padding: 0.5rem;
+    padding: 0.3rem;
     width: 15rem;
 }
 .formulario__box{

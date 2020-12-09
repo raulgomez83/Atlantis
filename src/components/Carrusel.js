@@ -1,10 +1,10 @@
 import React from 'react';
 
-import carousel1 from "../images/carousel1.jpeg"
-import carousel2 from "../images/carousel2.jpeg"
-import carousel3 from "../images/carousel3.jpeg"
-import carousel4 from "../images/carousel4.jpeg"
-import carousel5 from "../images/carousel5.jpeg"
+import carousel1 from "../images/carousel1.png"
+import carousel2 from "../images/carousel2.png"
+import carousel3 from "../images/carousel3.png"
+import carousel4 from "../images/carousel4.png"
+import carousel5 from "../images/carousel5.png"
 
 
 export const Carrusel = () => {

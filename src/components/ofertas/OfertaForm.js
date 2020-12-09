@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+
+
+import close from "../../images/close.png"
+
 
 export const OfertaForm = ({handleForm,open, destino}) => {
 
@@ -8,11 +12,11 @@ export const OfertaForm = ({handleForm,open, destino}) => {
         document.forms["contactForm"].submit()
         handleForm();
     }
-
     return (
         <div className="modal__container" >
             <div className="modal__box formulario__box">
-                <h2> Envía tus datos y contactaremos contigo lo antes posible</h2>
+                <h2> Envíanos tus datos </h2>
+                <img  src={close} alt="icono cerrar" onClick={handleForm} className="modal__icon__close img__form" />
                 <form id="formulario"  action="mailto:raul_eje@hotmail.com" method="post" name="contactForm">
                     <h2>Viaje a: {destino}</h2>
                     <label htmlFor="GET-name">*Nombre y Apellidos:</label>
@@ -21,7 +25,7 @@ export const OfertaForm = ({handleForm,open, destino}) => {
                     <input  className= "formulario__input"id="GET-email" type="email" name="email" required></input>
                     <label htmlFor="GET-phone">Teléfono:</label>
                     <input className= "formulario__input"id="GET-phone" type="text" name="phone"></input>
-                    <textarea name="textarea" rows="12" cols="40" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
+                    <textarea name="textarea" rows="6" cols="30" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
                     <button className="custom__button" type="submit" onClick={handleCloseForm} name="Submit" >Enviar</button>
                 </form>
             </div>

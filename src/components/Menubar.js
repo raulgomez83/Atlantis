@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import { Modal } from './Modal';
 
-/* import logo from "../images/logo.png"; */
+import logo from "../images/logo.png";
 import icon from "../images/menuIcon.png";
 import facebook from "../images/facebook.png";
 import instagram from "../images/instagram.png";
@@ -23,8 +23,8 @@ export const Menubar = () => {
     return (
         <div className="menubar">
             <div className="nombre">
-                <Link to="/">{/* <img className="menubar__image"src={logo} alt="logo de la agencia" /> */}
-                    <h4><b>ATLANTIS</b> by Anet</h4>
+                <Link to="/"> <img className="menubar__image"src={logo} alt="logo de la agencia" /> 
+                    {/* <h4><b>ATLANTIS</b> by Anet</h4> */}
                 </Link>
                 <div className="menubar__mobile" >
                     <img src={icon}  alt="icono de menú" onClick={handleModal}
