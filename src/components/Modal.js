@@ -14,10 +14,10 @@ export const Modal = ({handleModal,open}) => {
     return (
         <div className="modal__container">
             <nav className="modal__box ">
-                <header>
+                <div className="modal__header">
                     <Link to="/"><img src= {logo} className="modal__logo" onClick={handleModal} alt="logo agencia de viajes atlantis travel cuatro caminos"/></Link>
                     <img  src={close} alt="icono cerrar" onClick={handleModal} className="modal__icon__close"/>
-                </header>
+                </div>
                 <ul>
                     <li><Link className="link" onClick={handleModal} to="/africa"> África</Link></li>
                     <li><Link className="link" onClick={handleModal} to="/america"> América</Link></li>

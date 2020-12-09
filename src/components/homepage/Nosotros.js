@@ -8,15 +8,16 @@ export const Nosotros = () => {
             <h2>Sobre Nosotros</h2>
             <section className="nosotros__section">
             <img src={anet}  alt="foto Anet"/>
-            <p>“El mundo es un libro y aquellos que no viajan sólo ven una página”. 
-                Esta frase, falsamente atribuida a San Agustín de Hipona, retrata a la perfección 
-                el espíritu de viajar. Existen miles de razones para viajar, conocer nuevos 
-                rincones y descubrir otras culturas. Los viajeros son almas inquietas que siempre 
-                están pensando en el siguiente destino, aunque el dinero suele ser un obstáculo 
-                en el camino, especialmente en la época navideña. Con la llegada de la Navidad, 
-                muchos españoles buscan viajar fuera del país para disfrutar del ambiente navideño
-                 de otras ciudades europeas, pero al mismo tiempo quieren seguir gastando en
-                  regalos.
+            <p>En Atlantis travel_by anet somos viajeros expertos en turismo a medida. 
+                Desde 1993 inspeccionamos personal y minuciosamente la oferta hotelera,
+                gastronómica y de ocio para diseñar el viaje perfecto para ti y los tuyos.<br/>
+                Nuestra obsesión por la perfección fue creciendo y en 2008 dimos un paso más,
+                abriendo nuestro primer atelier de viajes. Porque queremos que tus viajes te 
+                sienten como un guante, nuestro leitmotiv es buscar la máxima personalización, 
+                para que disfrutes de una experiencia adaptada 100% a tu presupuesto y gustos, 
+                con la tranquilidad de que cualquier eventualidad será resuelta rápidamente por
+                nosotros estés donde estés las 24 horas.<br/>
+                <b>Cuéntanos tus sueños, y los diseñamos a tu medida.</b>
             </p>
             </section>
             

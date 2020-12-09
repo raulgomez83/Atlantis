@@ -17,11 +17,6 @@
   left: 0;
   height: 100%;
   width: 100vw;
-  & header{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-  }
   & ul{
     margin-top: 2rem;
     display: flex;
@@ -31,10 +26,11 @@
   }
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
+.modal__header{
     align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
     width: 100vw;
 }
 .modal__icon__close{
