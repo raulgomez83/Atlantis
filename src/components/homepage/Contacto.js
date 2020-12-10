@@ -1,19 +1,19 @@
-import React/*,  { useEffect } */ from 'react';
+import React, { useEffect }/*,  { useEffect } */ from 'react';
 
  import direccion from "../../images/direccion.png";
  import telefono from "../../images/telefono.png";
  import email from "../../images/email.png";
 
-
-
 export const Contacto = () => {
 
-   /*  useEffect(() => {
-        const oficina =document.querySelector(".contacto").firstChild;
+     useEffect(() => {
+        const oficina =document.querySelector("iframe");
         const pantalla=window.innerWidth;
-        if (pantalla>1080){
-            oficina.style.visibility="hidden"}
-     }) */
+        if (pantalla>750){
+            oficina.style.height="250px";
+            oficina.style.width="400px";
+        }
+     }) 
     return (
         <div id="contacto"className="contact">
             <ul className="contacto">

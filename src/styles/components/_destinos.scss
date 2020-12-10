@@ -18,8 +18,8 @@
 }
  .destino__box img {
      position:relative;
-     width:100%;
-     max-height:13rem ;
+     width:90vw;
+     max-height:auto;
      } 
 .destino__box p{
     color: ivory;
@@ -87,4 +87,24 @@
     font-size:1.3rem ;
     margin: 1rem;
     padding:0.6rem;
+}
+@media (min-width: 750px) {
+   .destinos{
+       align-items: center;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       margin-top: 1rem;
+   }
+   .destino__box img{
+       width: 20rem;
+       height: 15rem;
+   }
+   .destino__box p{
+       font-size:2.5rem
+   }
+   .contacto__destino{
+       padding-bottom: 2rem;
+       font-size: 1.5rem;
+   }
 }

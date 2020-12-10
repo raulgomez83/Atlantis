@@ -1,13 +1,20 @@
 import React from 'react';
 
 import {destinos} from "../../data/destinos"
+import { Catalogo } from './Catalogo';
 
 export const TodosCatalogos = () => {
 
-    console.log(destinos.map(d=>d.catalogos));
+    const catalogos=(destinos.map(d=>d.catalogos));
+
+    console.log(catalogos.map(c=>c.nombre));
+
+
     return (
-        <div>
-            <h1>holi</h1>
-        </div>
+        <div className="todos_catalogos__container">
+           {/*  {catalogos.map(catalogo=>(
+                <Catalogo key={catalogo.idC} {...catalogo}/>
+            ))}*/}
+        </div> 
     )
 }

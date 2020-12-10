@@ -15,11 +15,11 @@ export const OfertaCard = ({id,destino,imagen}) => {
     }
 
     return (
-        <div >
+        <div className="oferta__box">
             <a href={(`/assets/pdf/${id}.pdf`)} target="_blank "rel="noopener">
                 <div className="catalogo__box"  style={liStyle}  >
-                <p className="catalogo__box__link">{destino}</p>
-               </div>
+                    <p className="catalogo__box__link">{destino}</p>
+                </div>
             </a>
             <div className="compra__container" onClick={handleForm}>
                 <button className="custom__button">Comprar</button>

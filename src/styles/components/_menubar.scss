@@ -52,12 +52,25 @@
     text-shadow: 1px 1px 1px black;
 };
 @media (min-width: 750px) {
-    .link{
-        font-size: 1.4rem;
+    .menubar{
+        height: 12rem;
+    }
+    .menubar__image{
+        height: 50%;
+        margin-left:8rem ;
+        width: 50%;
     };
-
+   
+    .menubar__socialmedia__icon{
+        text-shadow: 0.5px 0.5px 0.5px black;
+    }
     .menubar__tv{
+        margin-top: -6rem;
         visibility: visible;
+        & li a{
+            text-shadow: 0.5px 0.5px 0.5px ivory;
+      
+        }
     };
     .menubar__mobile{
         visibility: hidden;

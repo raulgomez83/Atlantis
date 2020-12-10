@@ -86,13 +86,12 @@ export const destinos=[
     "pais":"Costa Rica",
     "continente":"America",
     "ocio":"larga distancia",
-    "imagen":"../assets/images/costarica1.png",
+    "imagen":"../assets/images/costarica1.jpeg",
     "catalogos":[
         {   "idC":8,
             "nombre":"Costa Rica",
             "portada":"../assets/images/costarica.jpeg",
         }],
-    
 },{
     "id":"eeuu",
     "pais":"EE.UU",
@@ -108,7 +107,6 @@ export const destinos=[
         "nombre":"Costa Oeste",
         "portada":"../assets/images/oeste.png",
     },],
-    
 },{
     "id":"peru",
     "pais":"Perú",
