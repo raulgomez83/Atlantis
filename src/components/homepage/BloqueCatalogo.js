@@ -25,7 +25,7 @@ export const BloqueInfo = () => {
             <img className="info_icono"src={destino} alt="icono destinos"/>
             <p>Elige entre los mejores  <Link to="/destinos"><strong> DESTINOS, </strong><br/></Link> 
             seleccionados por nuestros agentes, para que disfrutes de tus vacaciones.</p>
-        </div> 
+        </div>
       {/*   <div className="catalogo__info">
             <img className="info_icono"src={contacto} alt="icono contacto"/>
             <p>...y si te queda alguna pregunta, no dudes en <a href="#customFooter"><strong> CONSULTARNOS, </strong><br/></a> 

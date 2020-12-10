@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-/* import {  BloqueInfo } from './BloqueCatalogo'; */
+ import {  BloqueInfo } from './BloqueCatalogo'; 
 /* import { BloqueViajes } from './BloqueViajes'; */
 import { Carrusel } from '../Carrusel';
 /* import { Video } from './Video'; */
@@ -21,7 +21,7 @@ export const HomePage = () => {
             <main>
                 <Nosotros/>
                 <Carrusel/>
-                {/* <BloqueInfo/> */}
+                 <BloqueInfo/>
                 {/* <BloqueViajes/> */}
                 <Contacto/>
                 <SocialMedia/>

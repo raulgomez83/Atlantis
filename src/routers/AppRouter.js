@@ -13,6 +13,7 @@ import { Menubar } from '../components/Menubar';
 import { CustomFooter } from '../components/CustomFooter';
 import { Modal } from '../components/Modal';
 import { Ofertas } from '../components/ofertas/Ofertas';
+import { TodosDestinos } from '../components/destinos/TodosDestinos';
 /* import { Destinos } from '../components/destinos/Destinos'; */
 
 
@@ -38,6 +39,7 @@ export const AppRouter = () => {
 
                 {/*   <Route exact path="/destinos" component={Destinos}/> */}
                   <Route exact path="/ofertas" component={Ofertas}/>
+                  <Route exact path="/destinos" component={TodosDestinos}/>
                   <Route exact path="/contacto" component={ContactoPage}/>
 
                   <Redirect to="/" />
