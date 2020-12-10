@@ -14,13 +14,14 @@
     align-content: flex-end;
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 1rem;
+    justify-content: center;
+    margin-bottom: 0.5rem;
     width: 100vw;
 
 };
 .menubar__image{
-    height: 3rem;
+    height: 8rem;
+    width: 16rem;
 };
 .modal__icon__openModal{
     height: 2rem;
