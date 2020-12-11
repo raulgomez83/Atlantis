@@ -45,12 +45,22 @@
     .oferta__container{
         align-items: center;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction:column;
         justify-content: center;
         margin-top: 15rem;
+        width:100vw;
     }
     .oferta__box{
-        width: 20rem;
+        width:50%;
     }
+    .oferta__destino{
+        width: 100%;
+        bottom:1rem;
+    }
+}
+@media (min-width: 1000px) {
+    .oferta__container{
+        margin-top: 17rem;
+    }
+
 }

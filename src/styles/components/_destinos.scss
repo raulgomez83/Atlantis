@@ -92,13 +92,13 @@
    .destinos{
        align-items: center;
        display: flex;
-       flex-wrap: wrap;
+       flex-direction: column;
        justify-content: center;
        margin-top: 1rem;
    }
    .destino__box img{
-       width: 20rem;
-       height: 15rem;
+       width: 30rem;
+       height: 20rem;
    }
    .destino__box p{
        font-size:2.5rem
@@ -107,4 +107,18 @@
        padding-bottom: 2rem;
        font-size: 1.5rem;
    }
+   .catalogo__container{
+      margin-top: 4rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .catalogo__box{
+    background-size: cover;
+    height: 15rem;
+    margin: 0.5rem;
+    width: 25rem;
+
+}
 }

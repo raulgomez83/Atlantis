@@ -14,7 +14,6 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 1rem;
     width: 100vw;
 
 };
@@ -60,7 +59,6 @@
         margin-left:8rem ;
         width: 50%;
     };
-   
     .menubar__socialmedia__icon{
         text-shadow: 0.5px 0.5px 0.5px black;
     }
@@ -69,11 +67,16 @@
         visibility: visible;
         & li a{
             text-shadow: 0.5px 0.5px 0.5px ivory;
-      
         }
     };
     .menubar__mobile{
         visibility: hidden;
     };
 };
+@media (min-width: 1000px) {
 
+    .menubar{
+        height: 15rem;
+    }
+
+}
