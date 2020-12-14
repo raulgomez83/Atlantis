@@ -15,6 +15,7 @@ import { Modal } from '../components/Modal';
 import { Ofertas } from '../components/ofertas/Ofertas';
 import { TodosDestinos } from '../components/destinos/TodosDestinos';
 import { TodosCatalogos } from '../components/destinos/TodosCatalogos';
+import ScrollToTop from '../components/helpers';
 
 
 
@@ -23,6 +24,7 @@ import { TodosCatalogos } from '../components/destinos/TodosCatalogos';
 export const AppRouter = () => {
     return (
         <Router>
+            <ScrollToTop/>
             <div >
            <Menubar/> 
             <Modal/>

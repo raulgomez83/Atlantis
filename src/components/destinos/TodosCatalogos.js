@@ -1,7 +1,10 @@
+
+
 import React from 'react';
 
+
 import {destinos} from "../../data/destinos"
-import { Catalogo } from './Catalogo';
+/* import { Catalogo } from './Catalogo'; */
 
 export const TodosCatalogos = () => {
 

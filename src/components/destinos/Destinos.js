@@ -15,7 +15,7 @@ export const Destinos= ({continente}) => {
 
     return (
     <div className="destinos">
-         <div >
+         <div className="destinos__container">
                 {destinosOrdenados.map(destino=>(
                     <DestinoCard key={destino.id} {...destino}/>
                 ))}
