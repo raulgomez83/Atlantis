@@ -3,8 +3,7 @@ import { Redirect, useParams } from 'react-router-dom';
 import { getDestinoByPais } from './getDestinoByPais';
 import { Catalogo } from './Catalogo';
 import {OfertaDestino} from "../ofertas/OfertaDestino"
-import { CustomFooter } from '../CustomFooter';
-import { Menubar } from '../Menubar';
+
 
 
 export const DestinoItem = () => {
@@ -17,15 +16,12 @@ export const DestinoItem = () => {
 
 
     return (
-        <div >
-            <Menubar/>
+        <div  className="destino__item">
             <h1>{pais}</h1>
             <ul className="catalogo">
-                <h1>{pais}</h1>
                  {catalogos.map(catalogo=>(<Catalogo key={catalogo.idC}{...catalogo}>{catalogo.idC}</Catalogo>))}     
             </ul>
             <OfertaDestino/>
-            <CustomFooter/>
         </div>
     )
 }

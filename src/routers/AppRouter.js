@@ -24,7 +24,7 @@ export const AppRouter = () => {
     return (
         <Router>
             <div >
-            <Menubar/>
+           <Menubar/> 
             <Modal/>
             <CustomFooter/>
                 <Switch>

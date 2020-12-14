@@ -29,6 +29,7 @@
 @media (min-width: 1080px) {
     .catalogo{
         display: flex;
+     
     }
     .info_icono{
         width: 4rem;
@@ -36,5 +37,6 @@
 
     .catalogo__info{
         width: 35vw;
+        margin: 5rem 0 4rem;
     }
 }

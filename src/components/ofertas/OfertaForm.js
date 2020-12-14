@@ -25,7 +25,7 @@ export const OfertaForm = ({handleForm,open, destino}) => {
                     <input  className= "formulario__input"id="GET-email" type="email" name="email" required></input>
                     <label htmlFor="GET-phone">Teléfono:</label>
                     <input className= "formulario__input"id="GET-phone" type="text" name="phone"></input>
-                    <textarea name="textarea" rows="6" cols="30" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
+                    <textarea name="textarea" rows="6" cols="31" minLength="10" placeholder="Escribe tu comentario..." required></textarea>
                     <button className="custom__button" type="submit" onClick={handleCloseForm} name="Submit" >Enviar</button>
                 </form>
             </div>

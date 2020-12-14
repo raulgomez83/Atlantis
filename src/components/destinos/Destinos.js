@@ -1,5 +1,4 @@
 import React, { useMemo } from 'react';
-import { CustomFooter } from '../CustomFooter';
 import { ContactoDestino } from './ContactoDestino';
 import { DestinoCard } from './DestinoCard';
 import { getDestinoByContinent } from './getDestinoByContinent';
@@ -14,14 +13,14 @@ export const Destinos= ({continente}) => {
         return 0;
     })
 
-    return (<>
-         <div className="destinos">
+    return (
+    <div className="destinos">
+         <div >
                 {destinosOrdenados.map(destino=>(
                     <DestinoCard key={destino.id} {...destino}/>
                 ))}
         </div>
         <ContactoDestino/>
-        <CustomFooter/>
-        </>
+        </div>
     )
 }
