@@ -8,7 +8,7 @@ export const Nosotros = () => {
             <h2>Sobre Nosotros</h2>
             <section className="nosotros__section">
             <img src={anet}  alt="foto Anet"/>
-            <p>En Atlantis travel_by anet somos viajeros expertos en turismo a medida. 
+            <p>En Atlantis by anet somos viajeros expertos en turismo a medida. 
                 Desde 1993 inspeccionamos personal y minuciosamente la oferta hotelera,
                 gastronómica y de ocio para diseñar el viaje perfecto para ti y los tuyos.<br/>
                 Nuestra obsesión por la perfección fue creciendo y en 2008 dimos un paso más,

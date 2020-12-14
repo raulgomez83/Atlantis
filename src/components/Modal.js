@@ -15,7 +15,7 @@ export const Modal = ({handleModal,open}) => {
         <div className="modal__container">
             <nav className="modal__box ">
                 <div className="modal__header">
-                    <Link to="/"><img src= {logo} className="modal__logo" onClick={handleModal} alt="logo agencia de viajes atlantis travel cuatro caminos"/></Link>
+                    <Link to="/"><img src= {logo} className="modal__logo" onClick={handleModal} alt="logo agencia de viajes atlantis cuatro caminos"/></Link>
                     <img  src={close} alt="icono cerrar" onClick={handleModal} className="modal__icon__close"/>
                 </div>
                 <ul>

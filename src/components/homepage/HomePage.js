@@ -16,7 +16,7 @@ export const HomePage = () => {
         <div className="wrapper">
                {/* <Video/> */}
             <header>
-                <h1>Atlantis Travel <br/>by Anet</h1>
+                <h1>Atlantis  <br/>by Anet</h1>
             </header>
             <main>
                 <Nosotros/>
