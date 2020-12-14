@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import { Contacto } from './homepage/Contacto';
 import { SocialMedia } from './SocialMedia';

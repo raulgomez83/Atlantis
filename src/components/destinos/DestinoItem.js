@@ -18,7 +18,7 @@ export const DestinoItem = () => {
     return (
         <div  className="destino__item">
             <h1>{pais}</h1>
-            <ul className="catalogo">
+            <ul className="catalogos">
                  {catalogos.map(catalogo=>(<Catalogo key={catalogo.idC}{...catalogo}>{catalogo.idC}</Catalogo>))}     
             </ul>
             <OfertaDestino/>

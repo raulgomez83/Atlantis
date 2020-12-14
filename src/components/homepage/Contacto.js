@@ -9,7 +9,10 @@ export const Contacto = () => {
      useEffect(() => {
         const oficina =document.querySelector("iframe");
         const pantalla=window.innerWidth;
-        if (pantalla>750){
+        if (pantalla>700){
+            oficina.style.height="250px";
+            oficina.style.width="400px";
+        }if (pantalla>1000){
             oficina.style.height="250px";
             oficina.style.width="400px";
         }

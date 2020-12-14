@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 6rem;
+    height: 5.5rem;
     position:fixed;
     top:0;
     width: 100%;
@@ -18,8 +18,9 @@
 
 };
 .menubar__image{
-    height: 8rem;
-    width: 16rem;
+    margin: 1rem;
+    height: 4rem;
+    width: 10rem;
 };
 .modal__icon__openModal{
     height: 2rem;
@@ -52,11 +53,11 @@
 };
 @media (min-width: 750px) {
     .menubar{
-        height: 12rem;
+        height: 11rem;
     }
     .menubar__image{
         height: 50%;
-        margin-left:8rem ;
+        margin-left:3rem ;
         width: 50%;
     };
     .menubar__socialmedia__icon{
@@ -76,7 +77,7 @@
 @media (min-width: 1000px) {
 
     .menubar{
-        height: 20rem;
+        height: 14rem;
     }
 
 }
