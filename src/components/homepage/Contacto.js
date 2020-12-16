@@ -26,12 +26,9 @@ export const Contacto = () => {
                 <li><img className="contact__icon"src={email}alt=""/>Email: <b>reservas@atlantistravel.es</b></li>
             </ul>
             <div className="agencia">
-                <h2>ATLANTIS  </h2><h3>byAnet</h3><br/><p>es una agencia de viajes
-                fundada en 1993 donde la experiencia e innovación se dan la mano para diseñar un  
-                viaje personalizado para el viajero más exigente.</p>
-            </div>
-            <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2900.9669183186743!2d-8.406112684511855!3d43.35680257913258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c9b3af8234f%3A0xede06900a60378f2!2sAtlantis%20Travel%20Cuatro%20Caminos!5e0!3m2!1ses!2ses!4v1605864153248!5m2!1ses!2ses"title="map" width="282" height="350" frameBorder="0"  allowFullScreen="" aria-hidden="false" tabIndex="0"/>
+                <h2>ATLANTIS  </h2><h3>byAnet</h3><br/><p> es una agencia en la que llevamos viajando desde 
+                    1993, para que nuestra experiencia e innovación se den la mano en 
+                    el diseño de un viaje personalizado para el viajero más exigente.</p>
             </div>
         </div>
     )
