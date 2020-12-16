@@ -6,7 +6,7 @@ import React, { useEffect }/*,  { useEffect } */ from 'react';
 
 export const Contacto = () => {
 
-     useEffect(() => {
+    /*  useEffect(() => {
         const oficina =document.querySelector("iframe");
         const pantalla=window.innerWidth;
         if (pantalla>700){
@@ -16,7 +16,7 @@ export const Contacto = () => {
             oficina.style.height="250px";
             oficina.style.width="400px";
         }
-     }) 
+     }) */ 
     return (
         <div id="contacto"className="contact">
             <ul className="contacto">
