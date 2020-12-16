@@ -25,13 +25,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   /*  position: relative;
-    margin-top: 105vh;
-    &::before {
-      content: "";
-      @include coverer;
-      top: -90vh;
-    } */
   }
 h1 {color:$gold;
     margin-top:1rem;}
@@ -65,16 +58,12 @@ header{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  height: 85vh;
   justify-content: center;
-  margin-bottom: 2rem;
-  & h1{
-    text-shadow: 1px 1px 1px black;
-    position: absolute;
-    top :75%
-  }
-
+  margin:6rem 0 2rem;
 }
+
+
 
 @media (min-width: 750px) {
   header{
