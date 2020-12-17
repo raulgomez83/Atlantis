@@ -50,6 +50,13 @@
     font-size: 1.5rem;
     font-weight: bolder;
     text-shadow: 1px 1px 1px black;
+    transition:color .3s ease ;
+    &:hover{
+        color:lighten($color: $gold, $amount: 20)
+    }
+    &:focus{
+        color:darken($color: $gold, $amount: 40)
+    }
 };
 @media (min-width: 750px) {
     .menubar{

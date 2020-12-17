@@ -1,4 +1,4 @@
-import React, { useEffect }/*,  { useEffect } */ from 'react';
+import React from 'react';
 
  import direccion from "../../images/direccion.png";
  import telefono from "../../images/telefono.png";
