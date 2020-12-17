@@ -1,5 +1,5 @@
 .oferta__container{
-    margin-top: 6rem;
+    margin-top: 8rem;
 }
 .compra__imagen{
     height: 3rem;
@@ -38,7 +38,7 @@
     width: 15rem;
 }
 .formulario__box{
-    padding: 2rem 1rem;
+    padding: 4rem 1rem 0;
 }
 .oferta__destino{
     align-items: center;
@@ -68,6 +68,8 @@
         height: 20rem;
         width: 30rem;
     }
+    .formulario__box{
+        padding-top: 12rem;}
 }
 @media (min-width: 1080px) {
     .oferta__container{
