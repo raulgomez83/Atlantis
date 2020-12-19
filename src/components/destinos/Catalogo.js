@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export const Catalogo = ({ nombre, portada, idC }) => {
   const liStyle = { backgroundImage: `url(${portada})` };
@@ -14,4 +15,9 @@ export const Catalogo = ({ nombre, portada, idC }) => {
       </li>
     </>
   );
+};
+Catalogo.propTypes = {
+  nombre: PropTypes.string.isRequired,
+  portada: PropTypes.string.isRequired,
+  idC: PropTypes.number.isRequired,
 };

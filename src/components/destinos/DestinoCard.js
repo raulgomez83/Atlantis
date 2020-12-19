@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 export const DestinoCard = ({ continente, pais, imagen }) => {
   return (
@@ -12,4 +13,9 @@ export const DestinoCard = ({ continente, pais, imagen }) => {
       </div>
     </>
   );
+};
+DestinoCard.propTypes = {
+  continente: PropTypes.string.isRequired,
+  pais: PropTypes.string.isRequired,
+  imagen: PropTypes.string.isRequired,
 };

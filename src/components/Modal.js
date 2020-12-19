@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import { SocialMedia } from "./SocialMedia";
-import PropTypes from "prop-types";
 
 import logo from "../images/logo.png";
 import close from "../images/close.png";
@@ -81,6 +81,6 @@ export const Modal = ({ handleModal, open = false }) => {
 };
 
 Modal.propTypes = {
+  handleModal: PropTypes.func,
   open: PropTypes.bool,
-  handleModal: PropTypes.func.isRequired,
 };

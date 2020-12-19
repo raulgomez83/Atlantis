@@ -1,5 +1,7 @@
 import React from "react";
 
+import PropTypes from "prop-types";
+
 import close from "../../images/close.png";
 
 export const OfertaForm = ({ handleForm, open, destino }) => {
@@ -68,4 +70,9 @@ export const OfertaForm = ({ handleForm, open, destino }) => {
       </div>
     </div>
   );
+};
+OfertaForm.propTypes = {
+  open: PropTypes.bool,
+  handleForm: PropTypes.func.isRequired,
+  destino: PropTypes.string.isRequired,
 };

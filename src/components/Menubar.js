@@ -19,9 +19,7 @@ export const Menubar = () => {
     <div className="menubar">
       <div className="nombre">
         <Link to="/">
-          {" "}
           <img className="menubar__image" src={logo} alt="logo de la agencia" />
-          {/* <h4><b>ATLANTIS</b> by Anet</h4> */}
         </Link>
         <div className="menubar__mobile">
           <img
