@@ -18,6 +18,6 @@ export const BuscadorDestinos = ({ filteredDestino, handleFilterChange }) => {
 };
 
 BuscadorDestinos.propTypes = {
-  filteredDestino: PropTypes.func.isRequired,
+  filteredDestino: PropTypes.string.isRequired,
   handleFilterChange: PropTypes.func.isRequired,
 };
