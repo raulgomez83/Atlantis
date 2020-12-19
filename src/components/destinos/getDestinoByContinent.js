@@ -1,11 +1,10 @@
-import {destinos} from "../../data/destinos";
+import { destinos } from "../../data/destinos";
 
 export const getDestinoByContinent = (continente) => {
-    const validContinents=["Africa","America","Asia","Europa","Oceania"];
+  const validContinents = ["Africa", "America", "Asia", "Europa", "Oceania"];
 
-    if (!validContinents.includes(continente)){
-        throw new Error (`El continente "${continente}" no es correcto`);
-    }
-    return  destinos.filter (destino=>destino.continente===continente);
-    
-}
+  if (!validContinents.includes(continente)) {
+    throw new Error(`El continente "${continente}" no es correcto`);
+  }
+  return destinos.filter((destino) => destino.continente === continente);
+};
