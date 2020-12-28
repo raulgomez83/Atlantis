@@ -239,4 +239,32 @@ export const destinos = [
       },
     ],
   },
+  {
+    id: "europacentral",
+    pais: "Europa Central",
+    continente: "Europa",
+    ocio: "cultural",
+    imagen: "../assets/images/europacentral1.jpeg",
+    catalogos: [
+      {
+        idC: 20,
+        nombre: "Praga, Viena, Budapest",
+        portada: "../assets/images/europacentral.jpeg",
+      },
+    ],
+  },
+  {
+    id: "francia",
+    pais: "Francia",
+    continente: "Europa",
+    ocio: "cultural",
+    imagen: "../assets/images/francia1.jpeg",
+    catalogos: [
+      {
+        idC: 21,
+        nombre: "Costa Azul",
+        portada: "../assets/images/costaazul.jpeg",
+      },
+    ],
+  },
 ];

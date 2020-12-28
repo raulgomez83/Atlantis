@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Modal } from "./Modal";
@@ -10,6 +10,13 @@ import instagram from "../images/instagram.png";
 import chat from "../images/chat.png";
 
 export const Menubar = () => {
+  useEffect(() => {
+    const menubarMobile = document.querySelector(".menubar__mobile");
+    const pantalla = window.innerWidth;
+    if (pantalla > 720) {
+      menubarMobile.remove();
+    }
+  });
   const [isOpen, setIsOpen] = useState(false);
   const handleModal = () => {
     return setIsOpen(!isOpen);
