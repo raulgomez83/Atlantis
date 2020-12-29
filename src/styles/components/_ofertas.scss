@@ -1,85 +1,81 @@
-.oferta__container{
-    margin-top: 8rem;
+.oferta__container {
+  margin-top: 8rem;
 }
-.compra__imagen{
-    height: 3rem;
+.compra__imagen {
+  height: 3rem;
 }
-.compra__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.compra__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 #formulario {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 2rem;
-    & h2{
-        margin: 0.5rem 0 1rem;
-    }
-    & textarea{
-        background-color:lighten($color: $gold, $amount: 15);
-        margin: 1rem;
-        resize:none;
-    }
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  & h2 {
+    margin: 0.5rem 0 1rem;
+  }
+  & textarea {
+    margin: 1rem;
+    resize: none;
+  }
 }
-.img__form{
-    position: fixed;
-    margin: 0.5rem;
-    top:0;
-    right: 0;
+.img__form {
+  position: fixed;
+  margin: 0.5rem;
+  top: 0;
+  right: 0;
 }
-.formulario__input{
-    background-color:lighten($color: $gold, $amount: 15);
-    margin: 0 0 1rem ;
-    padding: 0.3rem;
-    width: 15rem;
+.formulario__input {
+  margin: 0 0 1rem;
+  padding: 0.3rem;
+  width: 15rem;
 }
-.formulario__box{
-    padding: 4rem 1rem 0;
+.formulario__box {
+  padding: 4rem 1rem 0;
 }
-.oferta__destino{
-    align-items: center;
-    background-image: url(../../images/oferta.jpeg);
-    background-size: cover;
-    color:ivory;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.3rem;
-    justify-content: space-around;
-    height: 15rem;
-    margin: 3rem 0 1rem; 
-    max-width: 100vw;
-    text-shadow:1px 1px 1px black;
+.oferta__destino {
+  align-items: center;
+  background-image: url(../../images/oferta.jpeg);
+  background-size: cover;
+  color: ivory;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  justify-content: space-around;
+  height: 15rem;
+  margin: 3rem 0 1rem;
+  max-width: 100vw;
+  text-shadow: 1px 1px 1px black;
 }
 
 @media (min-width: 750px) {
-    .oferta__container{
-        align-items: center;
-        display: flex;
-        flex-direction:column;
-        justify-content: center;
-        margin-top: 15rem;
-        width:100vw;
-    }
-    .oferta__destino{
-        height: 20rem;
-        width: 30rem;
-    }
-    .formulario__box{
-        padding-top: 12rem;}
+  .oferta__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15rem;
+    width: 100vw;
+  }
+  .oferta__destino {
+    height: 20rem;
+    width: 30rem;
+  }
+  .formulario__box {
+    padding-top: 12rem;
+  }
 }
 @media (min-width: 1080px) {
-    .oferta__container{
-        margin-top: 17rem;
-    }
-    .oferta__destino
-    {
-        height: 40vh;
-        width: 50vw;
-
-    }
-
+  .oferta__container {
+    margin-top: 17rem;
+  }
+  .oferta__destino {
+    height: 40vh;
+    width: 50vw;
+  }
 }

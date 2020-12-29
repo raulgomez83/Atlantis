@@ -57,7 +57,7 @@ export const Modal = ({ handleModal, open = false }) => {
           <li>
             <Link className="link" onClick={handleModal} to="/oceania">
               {" "}
-              Oceania
+              Oceanía
             </Link>
           </li>
           <li>

@@ -2,7 +2,7 @@ import React from "react";
 
 import PropTypes from "prop-types";
 
-import close from "../../images/close.png";
+import close from "../../images/close.svg";
 
 export const OfertaForm = ({ handleForm, open, destino }) => {
   if (!open) return null;
