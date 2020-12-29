@@ -2,7 +2,7 @@ import { destinos } from "../../data/destinos";
 import PropTypes from "prop-types";
 
 export const getDestinoByContinent = (continente) => {
-  const validContinents = ["Africa", "America", "Asia", "Europa", "Oceania"];
+  const validContinents = ["Africa", "America", "Asia", "Europa", "Oceanía"];
 
   if (!validContinents.includes(continente)) {
     throw new Error(`El continente "${continente}" no es correcto`);

@@ -66,7 +66,7 @@ export const Menubar = () => {
         <li>
           <Link className="link" to="/oceania">
             {" "}
-            Oceania
+            Oceanía
           </Link>
         </li>
         <li>

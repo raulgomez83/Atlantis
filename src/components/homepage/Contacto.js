@@ -27,7 +27,7 @@ export const Contacto = () => {
           Dirección:{" "}
           <b>
             <br />
-            Rua Concepción Arenal 17,
+            Rúa Concepción Arenal 17,
             <br /> 15006 A Coruña
           </b>
         </li>

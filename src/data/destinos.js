@@ -31,7 +31,7 @@ export const destinos = [
   {
     id: "australia",
     pais: "Australia",
-    continente: "Oceania",
+    continente: "Oceanía",
     ocio: "larga distancia",
     imagen: "../assets/images/australia1.png",
     catalogos: [
