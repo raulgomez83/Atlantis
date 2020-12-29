@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import { Modal } from "./Modal";
 
 import logo from "../images/logo.png";
-import icon from "../images/menuIcon.png";
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
-import chat from "../images/chat.png";
+import icon from "../images/menuIcon.svg";
+import facebook from "../images/facebook.svg";
+import instagram from "../images/instagram.svg";
+import chat from "../images/chat.svg";
 
 export const Menubar = () => {
   useEffect(() => {

@@ -1,23 +1,22 @@
 .modal__container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    z-index:10;
-
- }
- .modal__container .modal__box {
-  background:rgba($color: #000000, $alpha: 0.95);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  z-index: 10;
+}
+.modal__container .modal__box {
+  background: rgba($color: #000000, $alpha: 0.95);
   opacity: 0.9;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100vw;
-  & ul{
+  & ul {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -26,22 +25,20 @@
   }
 }
 
-.modal__header{
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1rem;
-    width: 100vw;
+.modal__header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  width: 100vw;
 }
-.modal__icon__close{
-  height:1.5rem;
+.modal__icon__close {
+  height: 1.5rem;
 }
-.modal__box li{
+.modal__box li {
   font-size: 2rem;
-  color:$gold;
+  color: $gold;
 }
-.modal__logo{
-    height: 6rem;
-    width: 13rem;
+.modal__logo {
+  height: 6rem;
 }
-

@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import { SocialMedia } from "./SocialMedia";
 
 import logo from "../images/logo.png";
-import close from "../images/close.png";
+import close from "../images/close.svg";
 
 export const Modal = ({ handleModal, open = false }) => {
   if (!open) return null;

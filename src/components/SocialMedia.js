@@ -1,8 +1,8 @@
 import React from "react";
 
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
-import chat from "../images/chat.png";
+import facebook from "../images/facebook.svg";
+import instagram from "../images/instagram.svg";
+import chat from "../images/chat.svg";
 
 export const SocialMedia = () => {
   return (

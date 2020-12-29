@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 /* import catalogo from "../../images/catalogo.png";  */
-import destino from "../../images/alrededor.png"; /*
+import destino from "../../images/around.svg"; /*
 import contacto from "../../images/contacto.png";*/
 
 export const BloqueInfo = () => {
