@@ -8,7 +8,11 @@ export const SocialMedia = () => {
   return (
     <div>
       <nav className="socialmedia ">
-        <a href="https://www.facebook.com/atlantisbyanet/">
+        <a
+          href="https://www.facebook.com/atlantisbyanet/"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <img
             className=" menubar__socialmedia__icon"
@@ -16,14 +20,22 @@ export const SocialMedia = () => {
             alt="icono facebook"
           />
         </a>
-        <a href="https://www.instagram.com/atlantis_byanet/">
+        <a
+          href="https://www.instagram.com/atlantis_byanet/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             className="menubar__socialmedia__icon"
             src={instagram}
             alt="icono instagram"
           />
         </a>
-        <a href="https://api.whatsapp.com/send?phone=34*********">
+        <a
+          href="https://api.whatsapp.com/send?phone=34698144909"
+          target="_blank"
+          rel="noreferrer"
+        >
           {" "}
           <img
             className="menubar__socialmedia__icon"

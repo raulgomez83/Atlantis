@@ -82,7 +82,11 @@ export const Menubar = () => {
         </li>
         <li>
           <nav className="menubar__socialmedia ">
-            <a href="https://www.facebook.com/atlantisbyanet/">
+            <a
+              href="https://www.facebook.com/atlantisbyanet/"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <img
                 className=" menubar__socialmedia__icon"
@@ -90,14 +94,22 @@ export const Menubar = () => {
                 alt="icono facebook"
               />
             </a>
-            <a href="https://www.instagram.com/atlantis_byanet/">
+            <a
+              href="https://www.instagram.com/atlantis_byanet/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="menubar__socialmedia__icon"
                 src={instagram}
                 alt="icono instagram"
               />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=34*********">
+            <a
+              href="https://api.whatsapp.com/send?phone=34698144909"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <img
                 className="menubar__socialmedia__icon"
