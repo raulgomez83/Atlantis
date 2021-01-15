@@ -1,0 +1,45 @@
+.cookies {
+  background-color: black;
+  color: lighten($color: $gold, $amount: 30);
+  padding: 2rem;
+  position: fixed;
+  top: 60%;
+  width: 100vw;
+  z-index: 12;
+}
+.cookies__button {
+  border-radius: 4px;
+  background-color: lighten($color: $gold, $amount: 20);
+  font-weight: bolder;
+  margin: 0.5rem 0 0 0.5rem;
+  padding: 0.3rem 0.5rem;
+}
+.cookies__link {
+  text-decoration: underline;
+}
+.politicaCookies {
+  margin: 5rem 1rem 7rem;
+  padding: 1rem;
+}
+.politicaCookies__p {
+  margin: 1rem 0;
+}
+
+@media (min-width: 700px) {
+  .cookies {
+    top: 89%;
+  }
+  .politicaCookies {
+    margin: 15rem 5rem 8rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cookies {
+    top: 85%;
+  }
+  .politicaCookies {
+    margin: 15rem 5rem 8rem;
+    padding: 1rem;
+  }
+}
