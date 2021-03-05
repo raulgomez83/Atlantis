@@ -24,6 +24,7 @@ import ScrollToTop from "../components/helpers";
 import { Cookies } from "../components/Cookies";
 import { PoliticaCookies } from "../components/PoliticaCookies";
 import { AvisoLegal } from "../components/AvisoLegal";
+import { PoliticaPrivacidad } from "../components/PoliticaPrivacidad";
 
 export const AppRouter = () => {
   return (
@@ -51,6 +52,11 @@ export const AppRouter = () => {
           <Route exact path="/contacto" component={ContactoPage} />
           <Route exact path="/politicadecookies" component={PoliticaCookies} />
           <Route exact path="/avisolegal" component={AvisoLegal} />
+          <Route
+            exact
+            path="/politicadeprivacidad"
+            component={PoliticaPrivacidad}
+          />
 
           <Redirect to="/" />
         </Switch>

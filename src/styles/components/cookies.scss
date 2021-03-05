@@ -36,6 +36,9 @@
   & h3 {
     margin: 1rem;
   }
+  & h4 {
+    margin: 1rem;
+  }
 }
 .aviso_p {
   margin: 1rem;
@@ -44,6 +47,9 @@
 @media (min-width: 700px) {
   .cookies {
     top: 80%;
+  }
+  .aviso__legal {
+    margin-top: 15rem;
   }
   .politicaCookies {
     margin: 15rem 5rem 8rem;
