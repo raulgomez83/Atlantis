@@ -15,6 +15,9 @@ export const Cookies = () => {
       <NavLink className="cookies__link" to="politicadecookies">
         Ver política
       </NavLink>
+      <NavLink className="cookies__link" to="avisolegal">
+        Aviso Legal
+      </NavLink>
       <button className="cookies__button" onClick={handleCookies}>
         Aceptar
       </button>

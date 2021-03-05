@@ -16,6 +16,7 @@
 }
 .cookies__link {
   text-decoration: underline;
+  margin: 0 0.5rem;
 }
 .politicaCookies {
   margin: 5rem 1rem 7rem;
@@ -23,6 +24,21 @@
 }
 .politicaCookies__p {
   margin: 1rem 0;
+}
+
+.aviso__legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  & h3 {
+    margin: 1rem;
+  }
+}
+.aviso_p {
+  margin: 1rem;
 }
 
 @media (min-width: 700px) {
