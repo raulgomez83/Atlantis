@@ -2,9 +2,14 @@
   background-color: $gold;
   bottom: 0;
   color: black;
-  font-size: 0.7em;
-  padding: 0.5rem 0;
+  display: flex;
   position: fixed;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.15rem;
   width: 100vw;
   z-index: 10;
+}
+.image__footer {
+  max-width: 5rem;
 }
