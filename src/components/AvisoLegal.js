@@ -2,12 +2,12 @@ import React from "react";
 
 export const AvisoLegal = () => {
   const email = "reservas@atlantistravel.es";
-  const nombreLegal = "Atlantis Travel";
+  const nombreLegal = "Atlantis Travel 4 Caminos";
   const direccion = "Rúa Concepción Arenal 17";
   const codigoPostal = "15006 ";
   const ciudad = "A Coruña";
   const pais = "España";
-  const CIF = "dedygeygw";
+  const CIF = "45849231L";
   const contactoCompleto = `Rúa Concepción Arenal 17,
                     15006 A Coruña-España 
                     Teléfono: 981 17 40 36 

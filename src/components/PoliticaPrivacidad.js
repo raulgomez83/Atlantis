@@ -1,8 +1,8 @@
 import React from "react";
 
 export const PoliticaPrivacidad = () => {
-  const nombreLegal = "Atlantis Travel";
-  const CIF = "dedygeygw";
+  const nombreLegal = "Atlantis Travel 4 Caminos";
+  const CIF = "45849231L";
   const contactoCompleto = `Rúa Concepción Arenal 17,
                     15006 A Coruña-España 
                     Teléfono: 981 17 40 36 

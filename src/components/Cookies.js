@@ -16,7 +16,7 @@ export const Cookies = () => {
         Ver política
       </NavLink>
       <NavLink className="cookies__link" to="politicadeprivacidad">
-        Ver política de privacidad
+        Política de privacidad
       </NavLink>
       <NavLink className="cookies__link" to="avisolegal">
         Aviso Legal
