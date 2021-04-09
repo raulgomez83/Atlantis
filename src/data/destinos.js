@@ -42,7 +42,7 @@ export const destinos = [
       },
     ],
   },
-  /* {
+  /* { 
     "id":"camboya",
     "pais":"Camboya",
     "continente":"Asia",
